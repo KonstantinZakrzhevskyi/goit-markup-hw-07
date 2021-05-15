@@ -749,7 +749,7 @@ textarea {
   transition: var(--duration) var(--timing-function);
 }
 
-.modal-button-close {
+.modal__button-close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -761,14 +761,14 @@ textarea {
   cursor: pointer;
 }
 
-.modal-icon-svg {
+.modal__icon-svg {
   width: 11px;
   height: 11px;
   transition: fill var(--duration) var(--timing-function);
 }
 
-.modal-button-close:hover,
-.modal-button-close:focus {
+.modal__button-close:hover,
+.modal__button-close:focus {
   fill: var(--accent-color);
 }
 
@@ -780,7 +780,7 @@ textarea {
   padding: 40px;
 }
 
-.form-title {
+.form__title {
   display: block;
   margin-bottom: 12px;
   text-align: center;
@@ -791,25 +791,25 @@ textarea {
   color: var(--subtitle-text-color);
 }
 
-.form-field {
+.form__field {
   position: relative;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
 }
 
-.form-field.comment {
+.form__field.comment {
   margin-bottom: 20px;
 }
 
-.form-ladel {
+.form__ladel {
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
 }
 
-.form-input {
+.form__input {
   height: 40px;
   padding-top: 12px;
   padding-right: 12px;
@@ -821,24 +821,24 @@ textarea {
   cursor: pointer;
 }
 
-.form-svg {
+.form__svg {
   position: absolute;
   top: 55%;
   left: 15px;
   transition: fill var(--duration) var(--timing-function);
 }
 
-.form-input:hover ~ .form-svg,
-.form-input:focus ~ .form-svg {
+.form__input:hover ~ .form__svg,
+.form__input:focus ~ .form__svg {
   fill: var(--accent-color);
 }
 
-.form-input:hover,
-.form-input:focus {
+.form__input:hover,
+.form__input:focus {
   border-color: var(--accent-color);
 }
 
-.form-textarea {
+.form__textarea {
   height: 120px;
   padding: 12px 16px;
   font-size: 14px;
@@ -850,21 +850,21 @@ textarea {
   cursor: pointer;
 }
 
-.form-textarea::placeholder {
+.form__textarea::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-textarea:hover,
-.form-textarea:focus {
+.form__textarea:hover,
+.form__textarea:focus {
   border-color: var(--accent-color);
 }
 
 /* checkbox */
 
-.checkbox-label {
+.checkbox__label {
   display: flex;
   align-items: center;
   margin-top: 20px;
@@ -874,7 +874,7 @@ textarea {
   line-height: 1.71;
 }
 
-.checkbox-icon {
+.checkbox__icon {
   width: 16px;
   height: 15px;
   margin-right: 8px;
@@ -884,13 +884,13 @@ textarea {
     border-color var(--duration) var(--timing-function);
 }
 
-.checkbox-input:checked + .checkbox-icon {
+.checkbox__input:checked + .checkbox__icon {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   background-image: url(../images/modal-check.svg);
   background-size: contain;
 }
-.checkbox-link {
+.checkbox__link {
   color: var(--accent-color);
 }
 
